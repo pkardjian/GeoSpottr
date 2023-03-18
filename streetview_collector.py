@@ -57,5 +57,5 @@ def main(input_directory):
           with open(os.path.join(output_directory + f'/{city}', f'street_view_{j}.jpg'), "wb") as file:
               file.write(response.content)
 
-directory = '/Users/pascalkardjian/Downloads/temp' # WHERE IMAGES ARE STORED
+directory = '/Users/pascalkardjian/Downloads/temp' # WHERE ADDRESS BOOK IS STORED
 main(directory)
