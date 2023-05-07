@@ -14,6 +14,19 @@ GeoGuessr is an online game where players are shown a random street view image f
 
 ![alt text](https://thegatewithbriancohen.com/wp-content/uploads/2016/12/Screen-Shot-2016-12-23-at-10.48.29-PM.png)
 
+### Methods Used
+- Data Filtering
+- Image Transformation
+- Network Architecture Research
+- Convolutional Neural Networks
+- Model Training
+
+### Technologies
+- Python
+- Google Street View API
+- PyTorch, Torchvision, NumPy, PIL
+- Google Colaboratory, Visual Studio Code
+
 ## Data Collection
 
 To train our image city predictor model, we collected a large dataset of street view images from various cities around the world using the Google Street View API. The images were labeled by their corresponding city and geocoordinates were also saved for further usage. The dataset encompasses a diverse range of urban landscapes, capturing different architectural styles, landmarks, and environmental characteristics.
