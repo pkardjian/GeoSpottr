@@ -53,4 +53,11 @@ The training process involved fine-tuning the model's weights using Cross-Entrop
 
 ## Results
 
-The trained model's performance was evaluated on a separate test dataset, which consisted of street view images from cities not seen during training. The evaluation metrics used include accuracy, precision, recall, and F1 score, providing insights into the model's ability to correctly predict the city in which an image was taken. Additionally, the model's performance was compared with human players in the GeoGuessr game to assess its competitiveness.
+Our best model had a final training accuracy of 65.3% and a final validation accuracy of 57.6%. In addition to this, our final model training loss was recorded at slightly above 0.03. 
+
+
+
+
+When our model was evaluated against the test set, the test accuracy was determined to be 61.9%
+
+
