@@ -57,6 +57,6 @@ Our best model had a final training accuracy of 65.3% and a final validation acc
 
 ![alt text](https://github.com/pkardjian/GeoSpottr/blob/main/primary/results/TrainingCurves.jpg)
 
-When our model was evaluated against the test set, the test accuracy was determined to be 61.9%
+When our model was evaluated against the test set, the test accuracy was determined to be 61.9% with both a weighted precision and recall score of 0.62. From the confusion matrix, we also observe that the North American cities (Toronto, Chicago, New York and Los Angeles) were often falsely predicted for each other. We also see that the city classes with the worst and best accuracy were Melbourne and Berlin who reported accuracies of 37.1% and 80.3%, respectively. 
 
 ![alt text](https://github.com/pkardjian/GeoSpottr/blob/main/primary/results/ConfusionMatrix.png)
