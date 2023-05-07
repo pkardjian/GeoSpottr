@@ -6,8 +6,9 @@
 - [Data Collection](#data-collection)
 - [Model Architecture](#model-architecture)
 - [Training](#training)
+- [Testing](#testing)
 - [Results](#results)
-- [Next Steps](#next-steps)
+
 
 ## Introduction
 
