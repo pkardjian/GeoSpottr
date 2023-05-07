@@ -24,7 +24,7 @@ Due to time and computational constraints, only 27500 images were collected for 
 
 For this project, we utilized the ResNet50 architecture, a deep CNN that has demonstrated outstanding performance in image classification tasks. ResNet50 is a 50-layer deep neural network that uses residual connections to address the vanishing gradient problem, allowing for the training of very deep neural networks. The weights in the first three stages of the ResNet50 model were frozen, whilst the weights within the very last stage were fine-tuned throughout the training process.
 
-![alt text](https://github.com/pkardjian/GeoSpottr/blob/main/primary/architecture/ResNet50.png)
+![alt text](https://github.com/pkardjian/GeoSpottr/blob/main/primary/architecture/ResNet.png)
 
 Another fully customized CNN was attached to the end of the ResNet50 model which follows a similar architecture to ResNet-18 where the four main convolutional layers are layered sequentially four times. However, in order to pass the outputs of the pre-trained ResNet-50 (1x1x2048 image tensor) to this part of the model, we must increase the spatial size of the feature maps. Thus, a key component of this model is its input layer which is a transposed convolutional layer. 
 
