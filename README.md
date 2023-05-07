@@ -59,4 +59,4 @@ Our best model had a final training accuracy of 65.3% and a final validation acc
 
 When our model was evaluated against the test set, the test accuracy was determined to be 61.9%
 
-![alt text](https://github.com/pkardjian/GeoSpottr/blob/main/primary/resutls/ConfusionMatrix.png)
+![alt text](https://github.com/pkardjian/GeoSpottr/blob/main/primary/results/ConfusionMatrix.png)
