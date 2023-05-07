@@ -7,6 +7,7 @@
 - [Model Architecture](#model-architecture)
 - [Training](#training)
 - [Results](#results)
+- [Next Steps](#next-steps)
 
 ## Introduction
 
@@ -51,6 +52,12 @@ The implementation and training of the model was done in Python, most notably us
 
 The training process involved fine-tuning the model's weights using Cross-Entropy loss and Stochastic Gradient Descent (SGD) optimizer. Training, testing and validation sets were created using a 60-20-20 split to help monitor the model's performance and prevent overfitting. Extensive hyperparameter tuning was conducted in order to ensure optimal performance.
 
+## Testing
+
+One of our main objectives in testing our model against new data was to emulate a human playing the GeoGuessr game. On the GeoGuessr platform, users can create custom maps using coordinates which GeoGuessr then uses to extract panoramas to be used for the game. As such, we created a map containing images from our test set that can then be played by a human. Their performance can thenbe compared to the test accuracy of our model. In order for accurate comparison, players must disable any moving, zooming or panning as the input to the model is a static image rather than the dynamic panoramas that GeoGuessr provides. 
+
+Further improvements to this testing method can include taking a screenshot of the GeoGuessr panorama and directly sending it to the model for prediction via a back-end server. 
+
 ## Results
 
 Our best model had a final training accuracy of 65.3% and a final validation accuracy of 57.6%. In addition to this, our final model training loss was recorded at slightly above 0.03. 
@@ -60,3 +67,5 @@ Our best model had a final training accuracy of 65.3% and a final validation acc
 When our model was evaluated against the test set, the test accuracy was determined to be 61.9% with both a weighted precision and recall score of 0.62. From the confusion matrix, we also observe that the North American cities (Toronto, Chicago, New York and Los Angeles) were often falsely predicted for each other. We also see that the city classes with the worst and best accuracy were Melbourne and Berlin who reported accuracies of 37.1% and 80.3%, respectively. 
 
 ![alt text](https://github.com/pkardjian/GeoSpottr/blob/main/primary/results/ConfusionMatrix.png)
+
+
