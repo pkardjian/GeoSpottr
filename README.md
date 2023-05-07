@@ -55,9 +55,8 @@ The training process involved fine-tuning the model's weights using Cross-Entrop
 
 Our best model had a final training accuracy of 65.3% and a final validation accuracy of 57.6%. In addition to this, our final model training loss was recorded at slightly above 0.03. 
 
-
-
+![alt text](https://github.com/pkardjian/GeoSpottr/blob/main/primary/results/TrainingCurves.jpg)
 
 When our model was evaluated against the test set, the test accuracy was determined to be 61.9%
 
-
+![alt text](https://github.com/pkardjian/GeoSpottr/blob/main/primary/resutls/ConfusionMatrix.png)
