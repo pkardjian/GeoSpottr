@@ -22,7 +22,7 @@ Due to time and computational constraints, only 27500 images were collected for 
 
 ## Model Architecture
 
-For this project, we utilized the ResNet50 architecture, a deep CNN that has demonstrated outstanding performance in image classification tasks. ResNet50 is a 50-layer deep neural network that uses residual connections to address the vanishing gradient problem, allowing for the training of very deep neural networks. The weights in the first three stages of the ResNet50 model were frozen, whilst the weights within the very last stage were fine-tuned throughout the training process.
+For this project, we utilized the ResNet50 architecture, a deep network that has demonstrated outstanding performance in image classification tasks. ResNet50 is a 50-layer deep neural network that uses residual connections to address the vanishing gradient problem, allowing for the training of very deep neural networks. The weights in the first three stages of the ResNet50 model were frozen, whilst the weights within the very last stage were fine-tuned throughout the training process.
 
 ![alt text](https://github.com/pkardjian/GeoSpottr/blob/main/primary/architecture/ResNet.png)
 
@@ -32,10 +32,11 @@ Another fully customized CNN was attached to the end of the ResNet50 model which
 
 The final part of this model consists of a fully connected artificial neural network (ANN). This part of the model is better known as the head classifier which takes the final output features extracted by the convolutional layers and use them to classify the images. 
 
-
 ## Training
 
-We trained the ResNet50 model on our collected dataset using transfer learning. The pre-trained weights were loaded into the model, and only the final fully connected layer was retrained on our specific task. The training process involved fine-tuning the model's weights using backpropagation and optimizing the parameters with the Adam optimizer. The training dataset was split into training and validation sets to monitor the model's performance and prevent overfitting.
+The implementation and training of our model was completed using Python, most notably making use of the PyTorch Torchvision libraries. 
+
+The training process involved fine-tuning the model's weights using the Cross-Entropy loss function and Stochastic Gradient Descent (SGD) optimizer. Training, testing and validation sets were created using a 60-20-20 split to monitor the model's performance and prevent overfitting. Extensive hyperparameter tuning was conducted in order to ensure optimal performance.
 
 ## Results
 
