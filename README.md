@@ -12,7 +12,7 @@
 
 GeoGuessr is an online game where players are shown a random street view image from anywhere in the world and have to guess the location. This project aims to develop a model that can predict the city in which an image was taken by analyzing visual features extracted from the street view images. By utilizing the power of Convolutional Neural Networks (CNN) and the ResNet50 architecture, we can train a highly accurate image classifier.
 
-![alt text](https://thegatewithbriancohen.com/wp-content/uploads/2016/12/Screen-Shot-2016-12-23-at-10.48.29-PM.png)
+![alt text](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuVSRtsMiLntaMRx9oAiPgsPetFItAc9MsC7hBIVD5p6PJDA6UJxrgZGQXMVx7KhhfXcqP-NTgwlHLuuJWy1yJ_eAjgn-12FmYNhKvSUwaAKyj1oGfv-pyxMg8M7NsWt7TzqSdsCOZ59lEG-ej-BuZr4j4NSfJctGCHcdPmzD5poYNs2_aQGxySra3Ww/s1822/1.png)
 
 ### Methods Used
 - Data Filtering
