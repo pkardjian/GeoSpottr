@@ -34,7 +34,7 @@ The final part of this model consists of a fully connected artificial neural net
 
 ## Training
 
-The implementation and training of our model was completed using Python, most notably making use of the PyTorch Torchvision libraries. 
+The implementation and training of our model was completed using Python, most notably making use of the PyTorch and Torchvision libraries. 
 
 The training process involved fine-tuning the model's weights using the Cross-Entropy loss function and Stochastic Gradient Descent (SGD) optimizer. Training, testing and validation sets were created using a 60-20-20 split to help monitor the model's performance and prevent overfitting. Extensive hyperparameter tuning was conducted in order to ensure optimal performance.
 
