@@ -10,6 +10,8 @@ from torch.autograd import Variable as V
 from torch.nn import functional as F
 from PIL import Image
 
+
+
 def main():
   use_cuda = True
 
