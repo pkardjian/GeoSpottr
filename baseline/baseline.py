@@ -1,5 +1,3 @@
-
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -8,6 +6,7 @@ from torch.autograd import Variable as V
 from torchvision import transforms
 from torch.nn import functional as F
 import matplotlib.pyplot as plt
+import pandas
 use_cuda = True
 
 
